@@ -18,14 +18,12 @@
 #include "c.h"
 
 #endif
-//
-//#ifndef D //Zadatci d) grupe
-//
-//#include "d1.h"
-//#include "d2.h"
-//#include "d3.h"
-//
-//#endif
+
+#ifndef D //Zadatci d) grupe
+
+#include "d.h"
+
+#endif
 //
 //#ifndef E //Zadatci e) grupe
 //
@@ -68,7 +66,7 @@ int main()
 	
 	//Zadatak c.2
 	
-	PrintMaxAndMinDifference();
+	//PrintMaxAndMinDifference();
 	
 	//Zadatak c.3
 	
@@ -77,15 +75,15 @@ int main()
 	
 	//Zadatak d.1
 	
-	
+	//PrintPercentageOfCharacterInString('a');
 	
 	//Zadatak d.2
 	
-	
+	//PrintMoreFrequentLetterCase('a');
 	
 	//Zadatak d.3
 	
-	
+	PrintNumberOfVowel('e');
 	
 	
 	//Zadatak e.1
