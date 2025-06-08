@@ -46,14 +46,14 @@ bool IsPrime(int number)
 
 // Zadatak 3. fje
 
-typedef struct
+typedef struct Date
 {
     int day;
     int month;
     int year;
 } Date;
 
-typedef struct
+typedef struct Student
 {
     char name[50];
     char surname[50];
@@ -85,7 +85,7 @@ float GetMaxStudentAverage(Student** students, int count)
 }
 // Zadatak 4. fje
 
-typedef struct
+typedef struct Complex
 {
     int real;
     int imaginary;
