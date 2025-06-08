@@ -12,13 +12,12 @@
 
 #endif
 
-//#ifndef C //Zadatci c) grupe
-//
-//#include "c1.h"
-//#include "c2.h"
-//#include "c3.h"
-//
-//#endif
+#ifndef CProblems //Zadatci c) grupe
+
+#define CProblems
+#include "c.h"
+
+#endif
 //
 //#ifndef D //Zadatci d) grupe
 //
@@ -60,20 +59,20 @@ int main()
 	
 	//Zadatak b.3
 
-	PrintSumOfElementsInRange(-10, 10);
+	//PrintSumOfElementsInRange(-10, 10);
 
 	
 	//Zadatak c.1
 	
-	
+	//PrintSumOfTwoDigitNumbers();
 	
 	//Zadatak c.2
 	
-	
+	PrintMaxAndMinDifference();
 	
 	//Zadatak c.3
 	
-	
+	//PrintProductOfPositiveNumbersOnMainDiagonal();
 	
 	
 	//Zadatak d.1

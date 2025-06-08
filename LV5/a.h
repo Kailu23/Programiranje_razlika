@@ -5,13 +5,13 @@
 #include <math.h>
 #include <time.h>
 
-int InputInRange(int, int);
+int InputInRange(int lowerBound, int upperBound);
 
 void PrintMaxDigitAndProductOfOthers();
 
 void PrintNumbersDivisibleBy7AndOver15();
 
-void InputArray(int*, int);
+void InputArray(int* numbers, int sizeofArray);
 
 void PrintAllCharsBetweenTwoChars();
 

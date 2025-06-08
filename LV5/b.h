@@ -1,19 +1,17 @@
 #include "a.h"
 
-double GetAverage(int*, int);
+double GetAverage(int* numbers, int sizeOfArray);
 
 void PrintElementsGreaterThanAverageAndEven();
 
-void PrintOddElementsSmallerAndGreaterThanAverage(int*, int, double);
+void PrintOddElementsSmallerAndGreaterThanAverage(int* numbers, int sizeOfArray, double average);
 
-void InputRealArray(int*, int);
+void InputRealArray(double* numbers, int sizeofArray);
 
 void PrintReverseArrayAndDoubleEvenNumbers();
 
 double GetAverageReal(double* numbers, int sizeOfArray);
 
-void PrintSumOfElementsInRange(int, int);
+void PrintSumOfElementsInRange(int lowerBound, int upperBound);
 
-void PrintAverageOfElementsInRange(double*, int, int, int);
-
-
+void PrintAverageOfElementsInRange(double* numbers, int sizeOfArray, int lowerBound, int upperBound);
