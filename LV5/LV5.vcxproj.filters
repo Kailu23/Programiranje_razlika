@@ -80,5 +80,8 @@
     <ClInclude Include="d.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="e.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

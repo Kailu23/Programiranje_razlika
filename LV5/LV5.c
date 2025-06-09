@@ -19,19 +19,19 @@
 
 #endif
 
-#ifndef D //Zadatci d) grupe
+#ifndef DProblems //Zadatci d) grupe
 
+#define DProblems
 #include "d.h"
 
 #endif
-//
-//#ifndef E //Zadatci e) grupe
-//
-//#include "e1.h"
-//#include "e2.h"
-//#include "e3.h"
-//
-//#endif
+
+#ifndef E //Zadatci e) grupe
+
+#define EProblems
+#include "e.h"
+
+#endif
 
 int main()
 {
@@ -83,18 +83,20 @@ int main()
 	
 	//Zadatak d.3
 	
-	PrintNumberOfVowel('e');
+	//PrintNumberOfVowel('e');
 	
 	
 	//Zadatak e.1
 	
-	
+	PrintConeVolume(5, 10);
 	
 	//Zadatak e.2
 	
-	
+	PrintNumberOfDigits(123);
 	
 	//Zadatak e.3
+
+	PrintAverageOfEvenNumbersInRange(1, 5);
 
 	return 0;
 }
